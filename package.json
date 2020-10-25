@@ -1,7 +1,7 @@
 {
     "name": "mern_fullstack_todolist_app",
     "version": "1.0.0",
-    "description": "A full stack application with React and MongoDB (Easily deployed)",
+    "description": "A full stack application with React and MongoDB",
     "main": "index.js",
     "scripts": {
         "build": "webpack -p",
@@ -19,7 +19,7 @@
         "express",
         "mongo"
     ],
-    "author": "Daniel 'The Code Whisperer' Stern",
+    "author": "Angel Robles",
     "license": "ISC",
     "dependencies": {
         "axios": "^0.18.0",
@@ -38,8 +38,8 @@
         "redux": "^4.0.0",
         "redux-logger": "^3.0.6",
         "redux-saga": "^0.16.2",
-        "webpack": "^4.17.2",
-        "uuid": "^3.3.2"
+        "uuid": "^3.3.2",
+        "webpack": "^4.17.2"
     },
     "engines": {
         "node": "9.2.0"

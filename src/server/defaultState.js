@@ -52,6 +52,13 @@ export const defaultState = {
             owner: "U1",
             isComplete: false,
         },
+        {
+            name: "Create Comments",
+            id: "T5",
+            group: "G3",
+            owner: "U1",
+            isComplete: false,
+        },
     ],
     comments: [{
         owner: "U1",
