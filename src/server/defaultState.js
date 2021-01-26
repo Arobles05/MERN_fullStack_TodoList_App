@@ -24,7 +24,7 @@ export const defaultState = {
             owner: "U1",
         },
     ],
-    Tasks: [{
+    tasks: [{
             name: "Refactor tests",
             id: "T1",
             group: "G1",
