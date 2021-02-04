@@ -18,15 +18,16 @@ app.use(
     bodyParser.json()
 );
 
-const getDbCollection = collectionName => {
+const getDbCollection = async collectionName => {
     let db = await connectDbMongo();
     return db.collection(collectionName);
 
 }
 export const addNewTask = async task => {
-    // let db = await connectDbMongo();
-    //let collection = db.collection(`tasks`);
-    await getDbCollection(`tasks`).collection.insertOne(task);
+    console.log("llegandoooo")
+    let db = await connectDbMongo();
+    let collection = db.collection(`tasks`);
+    await collection.insertOne(task);
 }
 export const updateTask = async task => {
     let { id, group, name, isComplete } = task;
